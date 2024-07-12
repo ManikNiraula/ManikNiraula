@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact me</title>
+  <style>
+    body {
+      padding: 24px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      background-color: rgb(173, 173, 245);
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    img {
+      border-radius: 50%;
+      border: 4px dotted black;
+    }
+
+    .form-input {
+      margin: 8px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    label {
+      width: 200px;
+    }
+
+    .gender {
+      display: flex;
+      align-items: center;
+    }
+
+    .submit {
+      background-color: rgb(63, 180, 63);
+      padding: 4px;
+      border-radius: 4px;
+      border: 1px solid black;
+
+    }
+
+    .reset {
+      background-color: red;
+      padding: 4px;
+      border-radius: 4px;
+      border: 1px solid black;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: flex; justify-content: end; gap: 8px">
+    <a href="https://www.google.com/">Google</a>
+    <a href="">Contact me</a>
+  </div>
+  <hr />
+  <div style="display: flex; justify-content: center; gap: 20px">
+    <img height="200" width="200" src="https://cdn.memes.com/up/54526591681351347/i/1716832624954.jpg"
+      alt="Manik Niraula" />
+
+  </div>
+  <center>
+    <div>
+      <audio controls src="./music.mp3" autoplay></audio>
+    </div>
+  </center>
+
+  <hr />
+  <form>
+    <div class="form-input">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="First name:" />
+    </div>
+    <div class="form-input">
+      <label for="Lname">Last name:</label>
+      <input type="text" id="Lname" name="Last name:" />
+    </div>
+    <div class="form-input">
+      <label for="fathername">Father name:</label>
+      <input type="text" id="fname" name="Father name:" />
+    </div>
+    <div class="form-input">
+      <label for="Mothername">Mother name:</label>
+      <input type="text" id="fname" name="Mother name:" />
+    </div>
+    <div class="form-input">
+      <label for="contact">Contact no:</label>
+      <input type="number" id="contact" name="Contact no:" />
+    </div>
+    <div class="form-input">
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="job" name="occupation:" />
+    </div>
+    <div class="form-input">
+      <label for="Email">Email:</label>
+      <input type="text" id="email" name="Email:" />
+    </div>
+    <p>Gender</p>
+    <div class="gender">
+      <div class="form-input">
+        <label for="male">
+          <input type="radio" id="male" name="gender" />
+          Male</label>
+      </div>
+      <div class="form-input">
+        <label for="female">
+          <input type="radio" id="female" name="gender" />
+          Female</label>
+      </div>
+      <div class="form-input">
+        <label for="others">
+          <input type="radio" id="others" name="gender" />
+          Others</label>
+      </div>
+    </div>
+    <div class="form-input">
+      <label for="Agree" style="width:100%">
+        <input type="checkbox" id="Agree" name="others:" />
+        Agree to term and condition</label>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; gap:16px">
+      <input class="submit" type="submit" value="Submit">
+      <input class="reset" type="Reset" value="Reset">
+    </div>
+    <center>
+      <video controls src="https://videos.pexels.com/video-files/854053/854053-sd_640_360_25fps.mp4" height="200px"
+        width="200px" autoplay muted>
+      </video>
+      <video controls src="./coding.mp4" height="200px" width="200px" autoplay muted>
+      </video>
+    </center>
+
+
+  </form>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
